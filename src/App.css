@@ -1,0 +1,139 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    
+    background-color: rgb(245, 240, 231);
+    background-color: rgb(206, 206, 206);
+    color:black ;
+}
+.App{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-content{
+    width: 100%;
+    max-width: 700px;
+    max-height:fit-content;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+   flex-wrap: wrap;
+    border-radius: 1rem;
+    flex-direction: column;
+}
+.button-container{
+    display:flex;
+    justify-content:center;
+    
+}
+.card{
+    background-color:azure;
+    border-radius: 0.5rem;
+}
+.container>h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.job{
+    position:absolute;
+    top:69%;
+    left:40%;
+    font-size: 0.8rem;
+}
+.review-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:1.3rem;
+    margin: 0.5rem 3rem;
+}
+.quote-icon{
+    color:rgb(151, 76, 221);
+}
+.button-container{
+    margin-top: 2rem;
+    margin-bottom: 1rem;;
+}
+.random-btn{
+    background-color:blueviolet;
+    color:azure;
+    font-size:0.8rem;
+    width:9rem;
+    cursor: pointer;
+    padding: 0.5rem 2rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-bottom: 2rem;
+}
+.button-container>button{
+    background-color:azure;
+    color:rgb(151, 76, 221);
+    border: none;
+    width:2rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.image-display{
+    position: relative;
+    
+}
+.Heading-container{
+    position:relative;
+}
+.name{
+    position: absolute;
+    top:40%;
+    left:40%;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+.job,.review-container>p{
+    color:rgb(102, 102, 102);
+}
+.underline{
+    position:relative;
+    bottom:1rem;
+    width: 13.5rem;
+    height: 0.2rem;
+    background-color: blueviolet;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.image-display>img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 6px 0px 4px 2px blueviolet;
+    position:absolute;
+    bottom:45%;
+    left:25%;
+    border-radius: 50%;
+}
+.image-display{
+    width:6.5rem;
+    height: 6.5rem;
+    border-radius:50%;
+}
+.random-btn-container{
+    display: flex; 
+    justify-content: center;
+}
+
