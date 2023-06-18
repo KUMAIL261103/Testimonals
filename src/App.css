@@ -123,8 +123,8 @@ body{
     object-fit: cover;
     box-shadow: 6px 0px 4px 2px blueviolet;
     position:absolute;
-    bottom:45%;
-    left:25%;
+    bottom:30%;
+    left:30%;
     border-radius: 50%;
 }
 .image-display{
